@@ -1,0 +1,49 @@
+.footer{
+    padding-top: 60px;
+    background-color: $darkest-blue;
+    &-main{
+        display: flex;
+        justify-content: center;
+        &__links{
+            width: 200px;
+            margin-right: 60px;
+            .title{
+                color: $white-color;
+                margin-bottom: 15px;
+                font-family: 'Helvetica Neue', sans-serif;
+            }
+            li{
+                margin-bottom: 15px;
+                .link{
+                    color:$lightest-blue;
+                    font-family: 'Helvetica Neue', sans-serif;
+                }
+            }
+            .logo-img{
+                width: 32px;
+            }
+            .logo-text{ 
+                font-size: 22px;
+                font-weight: 900;
+                color: $white-color;
+                font-family: 'Helvetica Neue', sans-serif;
+            }
+            .para{
+                font-size: 15px;
+                color:$lightest-blue;
+                font-family: 'Helvetica Neue', sans-serif;}
+        }
+    }
+    &-copyright{
+        color: $lightest-blue;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 'Helvetica Neue', sans-serif;
+    }
+    .horizontal-line{
+        color:$white-color;
+        opacity: 11%;
+    }
+    
+}

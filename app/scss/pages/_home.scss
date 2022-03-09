@@ -1,0 +1,258 @@
+.banner{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 205px;
+    padding-bottom:130px ;
+    position: relative;
+    margin-bottom: 75px;
+   
+    &-text{
+        width: 500px;
+        padding-top: 90px;
+        &__title{
+            font-size: 42px;
+            font-weight: 900;
+            color: $white-color;
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+        &__para{
+            font-size: 11px;
+            font-weight: 900;
+            margin-bottom: 40px;
+            color: $white-color;
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+        &__btn{
+            background-color: $light-orange;
+            font-size: 8px;
+            padding: 10px 20px;
+            display: inline-block;
+            color: $white-color;
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+    }
+    &-img{
+        margin-left: 100px;
+        &__images{
+            width: 450px;
+        }
+    }
+}
+// ------------services----------------
+.services{
+    margin-bottom: 110px;
+    &-heading{
+        text-align: center;
+        margin-bottom: 72px;
+       
+        &__title{
+            font-size: 29px;
+            font-weight: 900;
+            color:$dark-blue-color ;
+            font-family: 'Helvetica Neue', sans-serif;
+            
+        }
+        &__para{
+            font-size: 11px;
+            color: #28384E;
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+    }
+    &-contents{
+        display: flex;
+        justify-content: center;
+        padding-left: 100px;
+        &__details{
+            margin-right: 60px;
+            width: 250px;
+            &-img{
+                width: 40px;
+                margin-bottom: 20px;
+            }
+            &-title{
+                font-size: 15px;
+                margin-bottom: 20px;
+                color:$dark-blue-color;
+                font-family: 'Helvetica Neue', sans-serif;
+            }
+            &-para{
+                font-size: 11px;
+                margin-bottom: 52px;
+                color: #28384E;
+                font-family: 'Helvetica Neue', sans-serif;
+            }
+            &-link{
+                font-size: 11px;
+                color: #1B498A;
+                font-family: 'Helvetica Neue', sans-serif;
+            }
+        }
+    }
+}
+// -----------help------
+.help{
+    display: flex;
+    justify-content: center;
+    padding-left: 140px;
+    margin-bottom: 145px;
+    &-textarea{
+        width: 423px;
+        margin-right: 80px;
+        &__title{
+            font-size: 29px;
+            font-weight: bold;
+            margin-bottom: 29px;
+            color: $dark-blue-color;
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+        &__para1{
+            margin-bottom: 21px;
+            font-size: 11px;
+            color: $blue-color;
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+        &__para2{
+            margin-bottom: 53px;
+            font-size: 11px;
+            color: $blue-color;
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+        &__link{
+            font-size: 11px;
+            background-color: $light-orange;
+            color: $white-color;
+            padding: 10px 30px;
+        }
+    }
+    &-img{
+        width: 511px;
+        img{
+            width: 100%;
+            height: 270px;
+        }
+    }
+}
+//-----work-with-us
+.workWith{
+    display: flex;
+    margin-bottom: 100px;
+    &-img{
+        width: 511px;
+        margin-right: 80px;
+        img{
+            width: 100%;
+            height: 270px;
+        }
+    }
+    &-textarea{
+        width: 423px;
+        position: relative;
+        &__title{
+            font-size: 29px;
+            color: $dark-blue-color;
+            font-weight: bold;
+            margin-bottom: 29px;
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+        &__para1{
+            margin-bottom: 21px;
+            font-size: 11px;
+            color: $blue-color;
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+        &__para2{
+            margin-bottom: 53px;
+            font-size: 11px;
+            color: $blue-color;
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+        input{
+            padding: 10px 90px 10px 10px;
+            border-radius: 5px;
+            border: 1px solid #EDE5D9;
+            
+        }
+        button{
+            padding: 10px 20px;
+            background-color: $light-orange;
+            border-radius: 5px;
+            color: $white-color;
+            position: absolute;
+            right: 152px;
+            border: none;
+        }
+    }
+}
+//--latest-project
+.latest-project{
+    background-color: $light-blue-color;
+    padding-top: 71px;
+    padding-bottom: 71px;
+    margin-bottom: 40px;
+    &__heading{
+        text-align: center;
+        color: $white-color;
+        &-title{
+            margin-bottom: 17px;
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+        &-para{
+            margin-bottom: 92px;
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+        
+    }
+    &__content{
+        display: flex;
+        justify-content: center;
+        &-details{
+            width: 278px;
+            margin-right: 72px;
+        }
+        &-img{
+            width: 100%;
+            margin-bottom: 17px;
+        }
+        &-title{
+            margin-bottom: 21px;
+            color: $white-color;
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+        &-para{
+            margin-bottom: 46px;
+            color: $white-color;
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+        &-link{
+            font-size: 15px;
+            color: $light-orange;
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+    }
+}
+.our-partner{
+    margin-bottom: 67px;
+    &__heading{
+        text-align: center;
+        margin-bottom: 90px;
+        &-title{
+            color: $dark-blue-color;
+            font-size: 29px;
+            font-weight: 900;
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+        &-para{
+            font-size: 11px;
+            color: $blue-color;
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+    }
+    &__logo{
+        display: flex;
+         justify-content: center;
+        &-img{
+            width: 150px;
+            margin-right: 75px;
+        }
+    }
+}
